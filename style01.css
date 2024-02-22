@@ -1,0 +1,203 @@
+*{
+    font-family: Helvetica;
+    border: border-box;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+.department a{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.mainbuilding img{
+    width: 100%;
+}
+#head{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #120077;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Logo img{
+    width: 90%;
+    padding: 1%;
+    transition: all ease 0.5s; 
+}
+#head:hover img{
+    scale: 1.02;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2700d6;
+    color: white;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menubar{
+    height: 100%;
+    width: 100%;
+    background-color: #2700d6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.block{
+    font-size: 1.5vw;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 2%;
+    padding: 10px 58px;
+    transition: all ease 0.15s;
+    
+}
+.block:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.face img{
+    width: 100%;
+}
+.face{
+    margin: 5%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.iconf{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+.logonitr{
+    display: flex;
+    justify-content: center;
+} 
+
+.people{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t1{
+    font-size: 2vw;
+    font-weight: bold;
+    color:rgb(255, 55, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.t2{
+    font-size: 2vw;
+    font-weight: bold;
+    color:#2700d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.person{
+    width: 20vw;
+    background-color: white;
+    border: 2px solid #2700d6;
+    border-radius: 6px;
+
+    color: black;
+}
+.person img{
+    aspect-ratio: 1/1;
+    transition: all ease 0.2s;
+}
+.person:hover img{
+    scale: 1.2;
+}
+
+
+
+#searchbar{
+    width: 40%;
+    border: 2.4px solid white;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#searchbar:hover{
+    border: 2px solid #2700d6;
+
+}
+#searchbar select{
+    background-color: #2700d6;
+    width: 9%;
+    aspect-ratio: 1/1;
+    border: 0;
+}
+#searchbar input{
+    font-size: 1vw;
+    border-width: 0;
+    padding: 1%;
+    width: 80%;
+}
+#searchbar button{
+    font-size: 1vw;
+    background-color: #2700d6;
+    color:white;
+    border-width: 0;
+    padding: 1%;
+    width:9%;
+    aspect-ratio: 1/1;
+}
+.randomimages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.randomimages img{
+    width: 720px;
+}
+.randomimages video{
+    width: 720px;
+}
+.icon{
+    height:50px;
+    width:50px;
+   background-color: #2700d6;
+}
+.icon img{
+    width:100%;
+    height:100%;
+    aspect-ratio: 1/1;
+    transition: all ease 0.2s; 
+}
+.icon:hover img{
+    scale: 1.3;
+}
